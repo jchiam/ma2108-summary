@@ -1,0 +1,144 @@
+\documentclass[10pt, twocolumn]{article}
+\usepackage[landscape]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{setspace}
+\title{MA2108 Summary}
+
+\renewcommand{\arraystretch}{1.5}
+\newcommand{\indentitem}{\setlength\itemindent{25pt}}
+\setlength{\columnsep}{20pt}
+
+\begin{document}
+\begin{center}
+\part*{MA2108 Summary}
+\end{center}
+\tableofcontents
+\newpage
+\onehalfspacing
+
+\section{The Real Numbers}
+\subsection{The Algebraic Properties of $\mathbb{R}$}
+$\mathbb{R}$ is a complete ordered field.
+\newline
+$\mathbb{R}$ is a \underline{field} because it has the following algebraic properties:
+\begin{enumerate}
+\item[1.]{$a+b=b+a$ \hspace{20pt} $\forall a,b \in \mathbb{R}$}
+\item[2.]{$(a+b)+c=a+(b+c)$ \hspace{20pt} $\forall a,b,c \in \mathbb{R}$}
+\item[3.]{$\exists 0 \in \mathbb{R}$ such that $0+a=a+0=a$ \hspace{20pt} $\forall a \in \mathbb{R}$}
+\item[4.]{For each $a \in \mathbb{R}, \exists -a \in \mathbb{R}$ such that}
+\begin{center}
+$a+(-a)=(-a)+a=0$
+\end{center}
+\item[5.]{$ab=ba, \forall a,b \in \mathbb{R}$}
+\item[6.]{$(ab)c=a(bc), \forall a,b,c \in \mathbb{R}$}
+\item[7.]{$\exists 1 \in \mathbb{R}$ such that $1 \neq 0$ and $1a=a1=a \forall\in\mathbb{R}$}
+\item[8.]{If $a \in \mathbb{R}$ and $a \neq 0$, then $\exists \frac{1}{a} \in \mathbb{R}$ such that}
+\begin{center}
+$a \cdot \frac{1}{a} = \frac{1}{a} \cdot a = 1$
+\end{center}
+\item[9.]{$a(b+c)=ab+ac, \forall a,b,c \in \mathbb{R}$}
+\end{enumerate}
+Any nonempty set $F$ together with two binary operations called \underline{addition} and \underline{multiplication} satisfying the above conditions is called a \underline{field}.
+
+\subsection{The Ordered Properties of $\mathbb{R}$}
+{\bf The Trichotomy Property}
+\newline
+If $a,b \in \mathbb{R}$, then exactly one of the following holds:
+\begin{center}
+$a<b$ \hspace{20pt} $b<a$ \hspace{9pt} or \hspace{9pt} $a=b$
+\end{center}
+\begin{enumerate}
+\item[(a)]{$a<b$ and $b<c \Rightarrow a<c$}
+\item[(b)]{$a<b \Rightarrow a+c<b+c, \forall c \in \mathbb{R}$}
+\item[(c)]{$a<b $and $c>0 \Rightarrow ac<bc$ and $a<b and c<0 \Rightarrow ac>bc$}
+\end{enumerate}
+
+\subsection{Intervals}
+{\bf Open Interval}
+\begin{center}
+$(a,b) = {x\in\mathbb{R} : a<x<b}$
+\end{center}
+{\bf Closed Interval}
+\begin{center}
+$[a,b] = {x\in\mathbb{R} : a \leq x \leq b}$
+\end{center}
+
+\subsection{Solving Inequalities}
+{\bf Rule 1:} If $ab>0$, either
+\begin{enumerate}
+\item[(i)]{$a>0$ and $b>0$}
+\item[(ii)]{$a<0$ and $b<0$}
+\end{enumerate}
+{\bf Rule 2:} If $ab<0$, either
+\begin{enumerate}
+\item[(i)]{$a<0$ and $b>0$}
+\item[(ii)]{$a>0$ and $b<0$}
+\end{enumerate}
+{\bf Example}
+\newline
+Solve $\frac{ax+b}{cx+d}<r$
+\begin{enumerate}
+\item[1.]{Bring $r$ to LHS and combine to single fraction.}
+\item[2.]{Multiply both sides by denominator squared.}
+\item[3.]{Solve quadratic inequality.}
+\end{enumerate}
+{\bf Bernoulli's Inequality}
+\begin{center}
+$(1+x)^n \geq 1+nx$ \hspace{20pt} $\forall n \in \mathbb{N}$, $x>-1$
+\end{center}
+
+\subsection{AM-GM-HM}
+{\bf Definitions}
+\newline
+Given $a_1,a_2,\dots,a_n$
+\begin{enumerate}
+\item[1.]{Arithmetic Mean}
+\begin{center}
+$A = \frac{a_1+a_2+\cdots +a_n}{n}$
+\end{center}
+\item[2.]{Geometric Mean}
+\begin{center}
+$G = (a_1a_2 \cdots a_n)^{\frac{1}{n}}$
+\end{center}
+\item[3.]{Harmonic Mean}
+\begin{center}
+$H = \frac{n}{\frac{1}{a_1}+\frac{1}{a_2}+ \cdots +\frac{1}{a_n}}$
+\end{center}
+\end{enumerate}
+{\bf AM-GM-HM Inequality}
+\newline
+Given $a_1=a_2= \cdots = a_n$ and letting $A$, $G$, $H$ be the different means respectively, Then
+\begin{center}
+$H \leq G \leq A$
+\end{center}
+
+\subsection{Absolute Value}
+{\bf Definition}
+\newline
+Let $a \in \mathbb{R}$.
+\begin{center}
+$|a| = 
+\left\{ \begin{array}{ll}
+a & \text{if} a>0 \\
+-a & \text{if} a<0 \\
+0 & \text{if} a=0
+\end{array} \right.$
+\end{center}
+
+{\bf Properties of Absolute Value}
+\begin{enumerate}
+\item[1.]{test}
+
+
+\end{enumerate}
+
+
+
+
+
+\end{document}
